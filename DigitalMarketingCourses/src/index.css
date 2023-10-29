@@ -1,0 +1,860 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+.body{
+    background: linear-gradient(225deg, hsla(203, 100%, 86%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    min-height: 50%;
+    border-radius: 25px;
+    background: rgba(185, 228, 255, 0.50);
+    mix-blend-mode: darken;
+    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.10);
+    margin: auto;
+    margin-bottom: 12rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.review{
+    width: 80%;
+    color: #000;
+    font-family: Space Grotesk;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.name{
+    color: #000;
+    font-family: Space Grotesk;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 40px 0 20px 40px;
+}
+
+
+.left{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    justify-content: center;
+}
+.coma{
+    padding: 10px 0px 20px 20px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    padding-top: 10rem;
+
+    color: #000;
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media only screen and (max-width:944px)
+{
+}
+
+@media only screen and (max-width:1016px)
+{
+    .review{
+        font-size: 21px;
+
+    }
+}
+
+@media only screen and (max-width:742px)
+{
+    .heading{
+        font-size: 32px;
+    }
+    .review{
+        font-size: 21px;
+
+    }
+}
+
+@media only screen and (max-width:598px)
+{
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        padding-top: 4rem;
+    }
+    .box{
+        min-height: auto;
+    }
+
+    .left{
+        width: 100%;
+    }
+    .right img{
+        padding:1rem;
+    }
+    .name{
+        padding: 10px;
+    }
+    .container{
+        gap: 0px;
+    }
+}
+.contactInfo{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(247,252,255,1) 4%, rgba(132,201,244,1) 100%);
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactText{
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%; 
+    letter-spacing: -0.96px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    opacity: .8;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.contactText1{
+
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    opacity: .6;
+}
+
+
+.contactInformation{
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%; 
+    letter-spacing: -0.72px;
+}
+
+.btx{
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 1.7rem;
+    gap: 0.75rem;
+}
+
+@media only screen and (max-width:1095px)
+{
+    .btx{
+        padding: .8rem;
+    }
+    .LeftContactUs{
+        padding: 0;
+    }
+    .RightContactUs{padding: 0;}
+}
+/* 1629 */
+@media only screen and (max-width:1628px)
+{
+    .div{
+        gap: 10px;
+        padding: 0px 0px ;
+    }
+
+    .coursesWrapperInside{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+}
+/*  */
+
+
+@media only screen and (max-width: 1567px) {
+    .coursesWrapperInside{
+        gap: 0px;
+    }
+}
+/* .div */
+
+@media only screen and (max-width:1629px)
+{
+    .div2{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:600px){
+
+
+
+    .header.aos-init.aos-animate {
+        display: none;
+    }
+
+}
+@media only screen and (max-width:600px){
+    
+    .LeftContactUs{
+        display: none;
+    }
+}
+@media only screen and (max-width:943px)
+{
+    .header.aos-init.aos-animate {
+        width: 60%;
+        justify-content: space-around;
+    }
+    
+    .LeftContactUs{
+        width: 100%;
+        padding: 0;
+    } 
+    .LeftContactUs{
+        padding: 0rem;
+    }
+    .RightContactUs{
+        width: 100%;
+    }
+    .contactInfoInside{
+        display: flex;
+        margin: 1px 1px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .RightContactUs{
+        padding: 0;
+        
+    }
+    .contactInfoInside{
+        width: 80%;
+        height: 50%;
+        display: flex;
+    }
+    .LeftContactUs {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        padding: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media only screen and (max-width:564px)
+{
+    .LeftContactUs{
+        display: none;
+    }
+}
+
+
+.btx3{
+    font-family: Poppins;
+    font-size: 31.247px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52.079px; 
+
+}
+
+input{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+input::placeholder{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52.079px; 
+}
+
+.btnx1{
+    display: flex;
+    width: 233px;
+    padding: 17px 42px;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 34px;
+    background: #6B4CFF;
+
+    color: #E9E5FF;
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 1rem;
+}
+
+
+.contactInfoInside{
+    width: 80%;
+    height: 200vh;
+    margin: auto;
+    display: flex;
+    
+}
+
+
+
+.LeftContactUs{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+.RightContactUs{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 3rem;
+}
+
+
+.coursesWrapper{
+    width: 100vw;
+    min-height: 100vh;
+    background: #c8e6f9;
+
+
+}
+.imgs{
+    display: flex;
+}
+.pytimg{
+    border-radius: 10px 10px 0 0;
+}
+.course1{
+    width: 68%;
+    border-radius: 10px;
+    background: #485a8195;
+
+    
+}
+
+
+.coursesWrapperInside{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    grid-template-columns: auto auto auto;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+.Popular{
+    opacity: .8;
+    font-family: Caladea;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -0.5px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 1rem;
+
+}
+
+.pythonContent{
+    color: #D9ECFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+}
+
+.contentx2{
+    color: #D9ECFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 18px; 
+}
+.design{
+    border-radius: 17.5px;
+    padding: 10px;
+    color: #D9ECFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+    
+}
+.styleText{
+
+    color: #000;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: .8;
+}
+
+.div{
+    padding: 0px 130px;
+}
+
+
+
+@media only screen and (max-width:901px){
+    
+    header.aos-init.aos-animate {
+        width: 60%;
+    }
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+  45deg,
+  hsl(240deg 60% 81%) 0%,
+  hsl(214deg 76% 82%) 9%,
+  hsl(202deg 72% 85%) 18%,
+  hsl(190deg 58% 91%) 27%,
+  hsl(180deg 44% 97%) 36%,
+  hsl(180deg 36% 98%) 45%,
+  hsl(180deg 24% 98%) 55%,
+  hsl(180deg 7% 98%) 64%,
+  hsl(242deg 43% 93%) 73%,
+  hsl(240deg 49% 85%) 82%,
+  hsl(238deg 51% 77%) 91%,
+  hsl(235deg 52% 69%) 100%
+);
+
+}
+.header{
+    height: 9vh;
+    width: 65vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    align-items: baseline;
+    overflow-y: hidden;
+}
+.items{
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    margin: auto;
+    gap: 2rem;
+    align-items: center;
+
+
+}
+.main_left{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+}
+.main_right{
+    display: flex;
+    margin-top: 7rem;
+}
+
+.h1{
+    margin-top:10rem;
+    margin-bottom: 1rem;
+    color: #4F5170;
+    font-family: Yantramanav;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.web{
+    color: #07AADC;
+}
+p{
+    color: #878484;
+    font-family: Telex;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn{
+
+    width: 167px;
+    height: 52px;
+    margin-top: 2rem;
+    flex-shrink: 0;
+    border-radius: 48px;
+    background: #07AADC;
+    outline: #000;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.about{
+    font-weight: 600;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newletter{
+    width: 30vw;
+    height: 50vh;
+    margin: auto;
+    background: rgb(122, 238, 238);
+    position: absolute;
+    margin-left: 36%;
+    margin-right: 40%;
+    border-radius: 50px;
+
+}
+
+.wrapper{
+    position: relative;
+
+}
+
+.newletter1{
+    padding: 4rem;
+    height: 100%;
+    text-align: center;
+
+}
+
+.stay{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.subscribe{
+    font-size: 1.2rem;
+    font-weight: 500;   
+}
+.inputtag{
+    margin-top: 2rem;
+    border: 1px solid rgb(82, 81, 81);
+    border-radius: 10px;
+    height: 2rem;
+
+}
+
+.btnx5{
+    background: rgb(132, 130, 230);
+    border-radius: 10px;
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hideme{
+    display: none;
+}
+@media only screen and (max-width:1165px)
+{
+    .hidemenot{
+        display: none;
+    }
+    .hideme{
+        display: block;
+    }
+    .htag{
+        font-size:2rem;
+    }
+    .ptag{
+        font-size: 1.2rem;
+    }
+    .Signup{
+        display: none;
+    }
+    .main_right {
+        display: none;
+    }
+}
+
+.xcourseswrapper{
+    width: 100vw;
+    height: 100vh;
+    background: #c8e6f9;
+}
+.xPopularCourses{
+    opacity: .8;
+    font-family: Caladea;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -0.5px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.xcoursesWrapperInside{
+    width: 80%;
+    height: 85%;
+    margin: auto;
+    gap: 20px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.xsingleCourse{
+    width: 75%;
+    min-height: 90%;
+    background: #4b73cb95;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.xsingleCourse img{
+    border-radius: 10px 10px 0 0;
+}
+
+.pythonContent{
+    color: #D9ECFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    padding-left: 5px;
+    
+}
+
+.styleText{
+
+    color: #000;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: .8;
+    padding: .4rem;
+}
+
+.xstar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+        color: #D9ECFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; 
+ 
+}
+
+@media only screen and (max-width:1629px){
+    .xcoursesWrapperInside{
+        grid-template-columns:auto auto auto;
+    }
+    .xsingleCourse{
+        width: 80%;
+    }
+    .styleText{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:1211px){
+    
+    .xsingleCourse{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width:1211px){
+    
+    .xsingleCourse{
+        width: 90%;
+        object-fit: contain;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width:1029px)
+{
+    .xstar{
+        padding: 10px;
+    }
+    .pythonContent {
+        color: #D9ECFF;
+        font-family: Inter;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        padding-left: 5px;
+    }
+}
+
+
+@media only screen and (max-width:987px)
+{
+    .xcoursesWrapperInside{
+        grid-template-columns: 
+        auto auto auto;
+    }
+    .xsingleCourse{
+        width: 100%;
+    }
+    .pythonContent{
+        line-height: 25px;
+    }
+}
+
+
+@media only screen and (max-width:683px)
+{
+     .xcoursesWrapperInside{
+        grid-template-columns: 
+        auto auto ;
+    }
+    
+    
+    .xcourseswrapper {
+        width: 100vw;
+        height: 120vh;
+        background: #c8e6f9;
+    }
+}
+
+@media only screen and (max-width:501px)
+{
+     .xcoursesWrapperInside{
+        grid-template-columns: 
+        auto  ;
+    }
+    
+    
+    .xcourseswrapper {
+        width: 100vw;
+        height: 300vh;
+        background: #c8e6f9;
+    }
+}
+
+
+@media only screen and (max-width:1200px){
+    .stay{
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    button.btnx1.btnx5 {
+        width: 40%;
+    }
+    .newletter1 {
+        padding: 1rem;
+        height: 100%;
+        text-align: center;
+        min-height: 10vh;
+    }
+    .newletter{
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width:400px){
+    
+    .RightContactUs {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 1rem;
+    }
+}
